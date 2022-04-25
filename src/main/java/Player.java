@@ -4,7 +4,7 @@ public class Player extends FootballEmployee {
     private int goalsScored;
     private double shootingAccuracy;
 
-    public Player(String name, int age, int wage, String position, int goalsScored, int shootingAccuracy) {
+    public Player(String name, int age, int wage, String position, int goalsScored, double shootingAccuracy) {
         super(name, age, wage);
         this.position = position;
         this.goalsScored = goalsScored;
@@ -17,4 +17,27 @@ public class Player extends FootballEmployee {
         }
     }
 
+    public String getPosition() {
+        return position;
+    }
+
+    public void setPosition(String position) {
+        this.position = position;
+    }
+
+    public int getGoalsScored() {
+        return goalsScored;
+    }
+
+    public void setGoalsScored(int goalsScored) {
+        this.goalsScored = goalsScored;
+    }
+
+    public double getShootingAccuracy() {
+        return shootingAccuracy;
+    }
+
+    public void setShootingAccuracy(double shootingAccuracy) {
+        this.shootingAccuracy = shootingAccuracy;
+    }
 }
