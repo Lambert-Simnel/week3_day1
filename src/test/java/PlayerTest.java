@@ -17,8 +17,5 @@ public class PlayerTest {
         assertEquals("Stephen Kingsley", player.getName());
     }
 
-    @Test
-    void testScoring() {
-        
-    }
+
 }
